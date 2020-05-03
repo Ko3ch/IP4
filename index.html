@@ -24,10 +24,8 @@
         </div>
       </div>
     </div>
-    <div class="container d-flex justify-content-between order">
-      <img id="deliv" src="images/pzzaDeliv.webp" alt="" width="700px" height="350px">
-    </div>
     <hr id="main">
+    <span id="cart"><img src="images/shopping-cart-309592_640.png" alt="" width="50px" height="50px"></span>   
     <div class="main">
       <div class="container" id="pizza">
         <div class="row">
@@ -36,16 +34,16 @@
               <span class="pizza">MEATY PIZZA</span>
               <section id="chicken" class="chicken-product-list">
                 <hr>
-                <img class="product-image" src="images/pizza3.jpg" alt="" width="120px" height="120px">
-                <p class="product-name">Club Pizza</p>
+                <img class="product-image product" src="images/pizza3.jpg" alt="" width="120px" height="120px">
+                <p class="product">Club Pizza</p>
                 <span class="product-description">Lorem ipsum dolor sit amet consectetur adipisic </span>
                 <hr>          
-                <img class="product-image" src="images/pizza1.png" alt="" width="120px" height="120px">
-                <p class="product-name">Mexican Fiesta</p>
+                <img class="product-image product" src="images/pizza1.png" alt="" width="120px" height="120px">
+                <p class="product">Mexican Fiesta</p>
                 <span class="product-description">Lorem ipsum dolor sit amet consectetur adipisic</span>
                 <hr>
-                <img class="product-image" src="images/pizza3.jpg" alt="" width="120px" height="120px">
-                <p class="product-name">Four Seasons</p>
+                <img class="product-image product" src="images/pizza3.jpg" alt="" width="120px" height="120px">
+                <p class="product">Four Seasons</p>
                 <span class="product-description">Lorem ipsum dolor sit amet consectetur adipisic</span>
                 <hr>
               </section>
@@ -56,16 +54,16 @@
               <span class="pizza">VEGANS PIZZA</span>
               <section class="vegan-product-list">
                 <hr>
-                <img class="product-image" src="images/pizza1.png" alt="" width="120px" height="120px">
-                <p class="product-name">3 Cheese</p>
+                <img class="product-image product" src="images/pizza1.png" alt="" width="120px" height="120px">
+                <p class="product">3 Cheese</p>
                 <span class="product-description">Lorem ipsum dolor sit amet consectetur adipisic</span>
                 <hr>
-                <img class="product-image" src="images/pizza3.jpg" alt="" width="120px" height="120px">
-                <p class="product-name">Classic Margherita</p>
+                <img class="product-image product" src="images/pizza3.jpg" alt="" width="120px" height="120px">
+                <p class="product">Classic Margherita</p>
                 <span class="product-description">Lorem ipsum dolor sit amet consectetur adipisic</span>
                 <hr>
-                <img class="product-image" src="images/pizza.jpg" alt="" width="120px" height="120px">
-                <p class="product-name">Original Vegie Pizza</p>
+                <img class="product-image product" src="images/pizza.jpg" alt="" width="120px" height="120px">
+                <p class="product">Original Vegie Pizza</p>
                 <span class="product-description">Lorem ipsum dolor sit amet consectetur adipisic</span>                
                 <hr>
               </section>
@@ -76,23 +74,107 @@
               <span id="" class="pizza">CHICKEN PIZZA</span>
               <section class="meaty-product-list">
                 <hr>
-                <img class="product-image" src="images/pizza1.png" alt="" width="120px" height="120px">
-                <p class="product-name">Bbq chicken</p>
+                <img class="product-image product" src="images/pizza1.png" alt="" width="120px" height="120px">
+                <p class="product">Bbq chicken</p>
                 <span class="product-description">Lorem ipsum dolor sit amet consectetur adipisic</span>
                 <hr>
-                <img class="product-image" src="images/pizza3.jpg" alt="" width="120px" height="120px">
-                <p class="product-name">Chicken and mushroom</p>
+                <img class="product-image product" src="images/pizza3.jpg" alt="" width="120px" height="120px">
+                <p class="product">Chicken and mushroom</p>
                 <span class="product-description">Lorem ipsum dolor sit amet consectetur adipisic</span>
                 <hr>
-                <img class="product-image" src="images/pizza1.png" alt="" width="120px" height="120px">
-                <p class="product-name">Peri Peri Chicken</p>
+                <img class="product-image product" src="images/pizza1.png" alt="" width="120px" height="120px">
+                <p class="product">Peri Peri Chicken</p>
                 <span class="product-description">Lorem ipsum dolor sit amet consectetur adipisic</span>
               </section>
             </div>
           </div>
-        </div>        
-      </div> 
+        </div> 
     </div>
-  </div>
-</body>
+    <div class="overlay-form">
+      <div class="close-btn">&times;</div>
+      <p>Size</p>
+      <div class="form-check">
+        <input class="form-check-input check-size" type="checkbox" value="" id="small">
+        <label class="form-check-label" for="small">
+          small
+        </label>
+        <span class="price">ksh. 400</span>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input check-size" type="checkbox" value="" id="medium">
+        <label class="form-check-label" for="medium">
+          medium
+        </label>
+        <span class="price">ksh. 700</span>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input check-size" type="checkbox" value="" id="large">
+        <label class="form-check-label" for="large">
+          large
+        </label>
+        <span class="price">ksh. 900</span>
+      </div>
+      <hr>
+      <p>Choose ycrust</p>
+      <div class="form-check">
+        <input class="form-check-input check-crust" type="checkbox" value="" id="crispy">
+        <label class="form-check-label" for="crispy">
+          crispy
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input check-crust" type="checkbox" value="" id="gluten">
+        <label class="form-check-label" for="gluten">
+          gluten-free
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input check-crust" type="checkbox" value="" id="stuffed">
+        <label class="form-check-label" for="stuffed">
+          stuffed
+        </label>
+      </div>
+      <hr>
+      <p>Add toppings</p>
+      <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="mushroom">
+        <label class="form-check-label" for="mushroom">
+          mushroom
+        </label>
+        <span class="price">ksh. 150</span>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="sausage">
+        <label class="form-check-label" for="sausage">
+          sausage
+        </label>
+        <span class="price">ksh. 150</span>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="bacon">
+        <label class="form-check-label" for="bacon">
+          bacon
+        </label>
+        <span class="price">ksh. 150</span>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="extra-cheese">
+        <label class="form-check-label" for="extra-cheese">
+          extra-cheese
+        </label>
+        <span class="price">ksh. 150</span>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="onion">
+        <label class="form-check-label" for="onion">
+          onions
+        </label>
+        <span class="price">ksh. 150</span>
+      </div>
+      <hr>
+      <button class="btn" type="submit">Proceed to Checkout</button>
+      <span class="price">Total: <span id="total"></span></span>
+    </div>
+  </body>
 </html>          
+                    
