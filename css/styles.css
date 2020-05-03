@@ -1,0 +1,121 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family:'Montserrat', sans-serif;
+  margin: 0;
+}
+#plug {
+  font-style: italic;
+  font-family: cursive;
+  cursor: pointer;
+  width: 15%;
+  padding: 10px;
+  border-radius: 10px;
+}
+#plug:hover {
+  font-size: 40px;
+}
+.head {
+  border: 5px solid black;
+  display: flex;
+  justify-content: end;
+}
+.header {
+  background-image: url(../images/pizza3.jpg);
+  background-size: cover;
+  height: 300px;
+}
+#order {
+  text-align: center;
+  color: burlywood;
+  cursor: pointer;
+}
+#order:hover {
+  border:2px solid burlywood;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
+
+}
+.order {
+  padding: 10px;
+}
+#deliv {
+  width: 50%;
+
+}
+.pizza a{
+  color: black;
+  font-size: 20px;
+}
+a:hover {
+  text-decoration: burlywood underline;
+  color: burlywood;
+}
+#pizza .active{
+  color: burlywood;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+.product-image {
+  border-radius: 120px
+}
+.product-description {
+  font-size: 15px;
+  color: gray;
+}
+.product {
+  cursor: pointer;
+}
+.product:hover {
+  opacity: 0.8;
+}
+section p{
+  padding-top: 5px;
+}
+section p:hover{
+  text-decoration: underline;
+}
+.overlay-form {
+  display: none;
+  line-height: 30px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 50%;
+  height: 120vh;
+  background-color: burlywood;
+  z-index: 2;
+  opacity: 1;
+  padding: 100px;
+  margin: 20%;
+  border-radius: 20px;
+  box-shadow: 3px 3px 2px 1px black;
+}
+.overlay-form .close-btn {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 40px;
+  font-weight: 600;
+  cursor: pointer;
+  color: brown;
+  margin: 10px;
+}
+.overlay-form p{
+  font-size: 30px;
+}
+.price {
+  float: right;
+}
+.overlay-form .btn:hover {
+  border: 2px solid black;
+}
+#cart {
+  float: right;
+  cursor: pointer;
+}
