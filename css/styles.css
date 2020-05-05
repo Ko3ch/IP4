@@ -87,7 +87,7 @@ section p:hover{
   top: 0px;
   left: 0px;
   width: 50%;
-  height: 120vh;
+  height: 100vh;
   background-color: burlywood;
   z-index: 2;
   opacity: 1;
@@ -109,7 +109,10 @@ section p:hover{
 .overlay-form p{
   font-size: 30px;
 }
-.price {
+.price{
+  float: right;
+}
+.small-price{
   float: right;
 }
 .overlay-form .btn:hover {
