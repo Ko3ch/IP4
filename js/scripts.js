@@ -47,10 +47,16 @@ $(document).on('click', '.size', function(){
   $('.size').not(this).prop('checked', false);
 });
 $(document).ready(function(){
+  
+  let selectedSizePrice = 0;
+  let selectedCrustPrice = 0;
+  let selectedToppings = [];
+
+  let pizza = new Pizza(selectedSizePrice, selectedCrustPrice);
+  pizza.toppings = selectedToppings;
+
   $(".product").click(function(){
     $(".overlay-form").fadeIn();
-    let selectedSizePrice = 0;
-    let selectedCrustPrice = 0;
     $('#small').click(function(){
       if($('#small').is(':checked')){
         $('.topping').each(function(){
@@ -92,22 +98,18 @@ $(document).ready(function(){
       if($('#stuffed').is(':checked'))
         selectedCrustPrice = $('#stuffed').val();
     });
-    let selectedToppings = [];
     $('#btn-checkout').click(function(){
         selectedToppings = $('.topping:checked').map(function(){
         return this.value;
       }).get();
       console.log(selectedToppings);
-      $('')      
-    });
-    let pizza = new Pizza(selectedSizePrice, selectedCrustPrice);
-    pizza.toppings = selectedToppings;
-
+      $('.overlay-form').fadeOut();
+    });    
     $(".close-btn").click(function(){
       $('.topping').prop("checked",false);
       $('.crust:checked').prop("checked",false);
       $('.size:checked').prop("checked",false);
       $(".overlay-form").fadeOut();
     });
-  });
+  });     
 });
