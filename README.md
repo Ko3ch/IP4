@@ -22,7 +22,7 @@ To use or make changes to this to this project use the following commands:
 
 MIT License
 
-Copyright (c) 2019 John Mutavi
+Copyright (c) 2020 Tom Koech
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
