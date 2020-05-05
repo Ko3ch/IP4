@@ -25,7 +25,7 @@
       </div>
     </div>
     <hr id="main">
-    <span id="cart"><img src="images/shopping-cart-309592_640.png" alt="" width="50px" height="50px"></span>   
+    <span id="cart"><img src="images/shopping-cart-309592_640.png" alt="" width="50px" height="50px"></span>
     <div class="main">
       <div class="container" id="pizza">
         <div class="row">
@@ -41,11 +41,6 @@
                 <img class="product-image product" src="images/pizza1.png" alt="" width="120px" height="120px">
                 <p class="product">Mexican Fiesta</p>
                 <span class="product-description">Lorem ipsum dolor sit amet consectetur adipisic</span>
-                <hr>
-                <img class="product-image product" src="images/pizza3.jpg" alt="" width="120px" height="120px">
-                <p class="product">Four Seasons</p>
-                <span class="product-description">Lorem ipsum dolor sit amet consectetur adipisic</span>
-                <hr>
               </section>
               </div>
           </div>
@@ -61,11 +56,6 @@
                 <img class="product-image product" src="images/pizza3.jpg" alt="" width="120px" height="120px">
                 <p class="product">Classic Margherita</p>
                 <span class="product-description">Lorem ipsum dolor sit amet consectetur adipisic</span>
-                <hr>
-                <img class="product-image product" src="images/pizza.jpg" alt="" width="120px" height="120px">
-                <p class="product">Original Vegie Pizza</p>
-                <span class="product-description">Lorem ipsum dolor sit amet consectetur adipisic</span>                
-                <hr>
               </section>
             </div>
           </div>
@@ -81,99 +71,84 @@
                 <img class="product-image product" src="images/pizza3.jpg" alt="" width="120px" height="120px">
                 <p class="product">Chicken and mushroom</p>
                 <span class="product-description">Lorem ipsum dolor sit amet consectetur adipisic</span>
-                <hr>
-                <img class="product-image product" src="images/pizza1.png" alt="" width="120px" height="120px">
-                <p class="product">Peri Peri Chicken</p>
-                <span class="product-description">Lorem ipsum dolor sit amet consectetur adipisic</span>
               </section>
             </div>
           </div>
         </div> 
     </div>
+    <hr>
     <div class="overlay-form">
       <div class="close-btn">&times;</div>
-      <p>Size</p>
+      <p>size</p>
       <div class="form-check">
-        <input class="form-check-input check-size" type="checkbox" value="" id="small">
+        <input name="size"class="form-check-input size" type="checkbox" value="400" id="small">
         <label class="form-check-label" for="small">
           small
         </label>
-        <span class="price">ksh. 400</span>
+        <span class="price" id="small-price">ksh. 400</span>
       </div>
       <div class="form-check">
-        <input class="form-check-input check-size" type="checkbox" value="" id="medium">
+        <input name="size"class="form-check-input size" type="checkbox" value="700" id="medium">
         <label class="form-check-label" for="medium">
           medium
         </label>
-        <span class="price">ksh. 700</span>
+        <span class="price" id="medium-price">ksh. 700</span>
       </div>
       <div class="form-check">
-        <input class="form-check-input check-size" type="checkbox" value="" id="large">
+        <input name="size"class="form-check-input size" type="checkbox" value="900" id="large">
         <label class="form-check-label" for="large">
           large
         </label>
-        <span class="price">ksh. 900</span>
+        <span class="price" id="large-price">ksh. 900</span>
       </div>
       <hr>
-      <p>Choose ycrust</p>
+      <p>crust</p>
       <div class="form-check">
-        <input class="form-check-input check-crust" type="checkbox" value="" id="crispy">
+        <input name="crust" class="form-check-input crust" type="checkbox" value="150" id="crispy">
         <label class="form-check-label" for="crispy">
           crispy
         </label>
+        <span class="price" id="crispy-price">ksh. 150</span>
       </div>
       <div class="form-check">
-        <input class="form-check-input check-crust" type="checkbox" value="" id="gluten">
+        <input name="crust" class="form-check-input crust" type="checkbox" value="200" id="gluten">
         <label class="form-check-label" for="gluten">
           gluten-free
         </label>
+        <span class="price" id="gluten-price">ksh. 200</span>
       </div>
       <div class="form-check">
-        <input class="form-check-input check-crust" type="checkbox" value="" id="stuffed">
+        <input name="crust" class="form-check-input crust" type="checkbox" value="250" id="stuffed">
         <label class="form-check-label" for="stuffed">
           stuffed
         </label>
+        <span class="price" id="stuffed-price">ksh. 250</span>
       </div>
       <hr>
-      <p>Add toppings</p>
+      <p>topping</p>
       <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="mushroom">
+      <input name="topping" class="form-check-input topping" type="checkbox" value="" id="mushroom">
         <label class="form-check-label" for="mushroom">
           mushroom
         </label>
-        <span class="price">ksh. 150</span>
+        <span class="price" id="mushroom-price"></span>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="sausage">
+        <input name="topping" class="form-check-input topping" type="checkbox" value="" id="sausage">
         <label class="form-check-label" for="sausage">
           sausage
         </label>
-        <span class="price">ksh. 150</span>
+        <span class="price" id="sausage-price"></span>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="bacon">
+        <input name="topping" class="form-check-input topping" type="checkbox" value="" id="bacon">
         <label class="form-check-label" for="bacon">
           bacon
         </label>
-        <span class="price">ksh. 150</span>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="extra-cheese">
-        <label class="form-check-label" for="extra-cheese">
-          extra-cheese
-        </label>
-        <span class="price">ksh. 150</span>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="onion">
-        <label class="form-check-label" for="onion">
-          onions
-        </label>
-        <span class="price">ksh. 150</span>
+        <span class="price" id="bacon-price"></span>
       </div>
       <hr>
-      <button class="btn" type="submit">Proceed to Checkout</button>
-      <span class="price">Total: <span id="total"></span></span>
+      <button type="" id="btn-checkout" class="btn">Proceed to Checkout</button>
     </div>
   </body>
 </html>          

@@ -122,9 +122,3 @@ section p:hover{
   float: right;
   cursor: pointer;
 }
-#active-cart {
-  width: 10px;
-  height: 10px;
-  border-radius: 10px;
-  background-color: cadetblue;
-}
